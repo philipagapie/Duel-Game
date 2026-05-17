@@ -1,0 +1,17 @@
+{
+  "name": "duel-game",
+  "version": "1.0.0",
+  "description": "Turn-based duel simulation",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "simulate": "ts-node src/index.ts --simulate",
+    "start:fixed": "ts-node src/index.ts --fixed-abilities",
+    "simulate:fixed": "ts-node src/index.ts --simulate --fixed-abilities",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
